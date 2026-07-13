@@ -8,3 +8,6 @@
 - Java : `java monProgramme.java`
 - Go : `go run monProgramme.go`
 - Rust : `rustc monProgramme.rs` + `./monProgramme`
+- Ruby : `?`
+- PHP : `php monProgramme.php`
+- Bash : `bash monProgramme.sh`
