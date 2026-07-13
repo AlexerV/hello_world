@@ -12,11 +12,11 @@ JS         | `.js`     | `node monProgramme.js`
 Java       | `.java`   | `java monProgramme.java`
 Go         | `.go`     | `go run monProgramme.go`
 Rust       | `.rs`     | `rustc monProgramme.rs` + `./monProgramme`
-Ruby       | `.rb`     | `?`
+Ruby       | `.rb`     | `ruby monProgramme.rb`
 PHP        | `.php`    | `php monProgramme.php`
 Bash       | `.sh`     | `bash monProgramme.sh`
 Perl       | `.pl`     | `perl monProgramme.pl`
-Lua        | `.lua`    | `?`
+Lua        | `.lua`    | `lua monProgramme.lua`
 TypeScript | `.ts`     | `node monProgramme.ts` 
 
 
