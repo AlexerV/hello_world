@@ -26,7 +26,6 @@ Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build mon
 Nom        | Extension | Compilation + Execution
 -----------|-----------|------------------------
 R          | `.r`      |
-Crystal    | `.cr`     |
 Dart       | `.dart`   |
 Kotlin     | `.kt`     |
 
