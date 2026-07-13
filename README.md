@@ -7,7 +7,7 @@ Nom        | Extension | Compilation + Execution
 Python     | `.py`     | `python monProgramme.py`
 C          | `.c`      | `gcc monProgramme.c` + `./a.out`
 C++        | `.cpp`    | `g++ monProgramme.cpp` + `./a.out`
-C#         | `.cs`     | `?`
+C#         | `.cs`     | `dotnet new console -n TestCS` + `cd TestCS` + `dotnet run`
 JS         | `.js`     | `node monProgramme.js`
 Java       | `.java`   | `java monProgramme.java`
 Go         | `.go`     | `go run monProgramme.go`
