@@ -18,6 +18,7 @@ Bash       | `.sh`     | `bash monProgramme.sh`
 Perl       | `.pl`     | `perl monProgramme.pl`
 Lua        | `.lua`    | `lua monProgramme.lua`
 TypeScript | `.ts`     | `node monProgramme.ts` 
+Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build monProgramme.cr` + `./monProgramme`
 
 
 ## A faire
@@ -28,3 +29,17 @@ R          | `.r`      |
 Crystal    | `.cr`     |
 Dart       | `.dart`   |
 Kotlin     | `.kt`     |
+
+- **Crystal** :
+  - Exécuter directement :
+  ```bash
+  crystal run monProgramme.cr
+  ```
+  > Ici Crystal compile automatiquement puis lance le programme.
+
+  - Compiler + Exécuter :
+  ```bash
+  crystal build monProgramme.cr  # Compilation (ça génère un exécutable nommé : monProgramme)
+  ./monProgramme                 # Exécution
+  ```
+  
