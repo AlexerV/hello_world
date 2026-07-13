@@ -19,6 +19,7 @@ Perl       | `.pl`     | `perl monProgramme.pl`
 Lua        | `.lua`    | `lua monProgramme.lua`
 TypeScript | `.ts`     | `node monProgramme.ts` 
 Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build monProgramme.cr` + `./monProgramme`
+Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgramme.jar` + `java -jar monProgramme.jar` **OU** `kotlinc monProgramme.kt -d .` + `kotlin MonProgrammeKt`
 
 
 ## A faire
@@ -27,7 +28,8 @@ Nom        | Extension | Compilation + Execution
 -----------|-----------|------------------------
 R          | `.r`      |
 Dart       | `.dart`   |
-Kotlin     | `.kt`     |
+
+---
 
 - **Crystal** :
   - Exécuter directement :
@@ -41,4 +43,19 @@ Kotlin     | `.kt`     |
   crystal build monProgramme.cr  # Compilation (ça génère un exécutable nommé : monProgramme)
   ./monProgramme                 # Exécution
   ```
+
+---
   
+- **Kotlin** :
+  - Compilation + Exécution :
+  ```bash
+  kotlinc monProgramme.kt -include-runtime -d monProgramme.jar  # (L'option `-include-runtime` inclut la bibliothèque standard Kotlin dans le JAR.)
+  java -jar monProgramme.jar  # Exécution avec Java
+  ```
+
+  - Exécuter sans créer de JAR
+  ```bash
+  kotlinc monProgramme.kt -d .  # Compiler
+  kotlin MonProgrammeKt  # Exécuter
+  ```
+  > `MonProgrammeKt` correspond au nom du fichier `monProgramme.kt`.
