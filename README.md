@@ -1,10 +1,10 @@
 # hello_world
 
-- Python : `python {name}`
-- C : `gcc {name}` + `a.out`
-- C++ : `g++ {name}` + `a.out`
+- Python : `python monProgramme.py`
+- C : `gcc monProgramme.c` + `./a.out`
+- C++ : `g++ monProgramme.cpp` + `./a.out`
 - C# : `?`
-- JS : `node {name}`
-- Java : `java {name}`
-- Go : `go run {name}`
-- Rust : `rustc {name}` + `./{name}`
+- JS : `node monProgramme.js`
+- Java : `java monProgramme.java`
+- Go : `go run monProgramme.go`
+- Rust : `rustc monProgramme.rs` + `./monProgramme`
