@@ -24,7 +24,7 @@ TypeScript | `.ts`     | `node monProgramme.ts`
 
 Nom        | Extension | Compilation + Execution
 -----------|-----------|------------------------
-R          |
-Crystal    |
-Dart       |
-Kotlin     |
+R          | `.r`      |
+Crystal    | `.cr`     |
+Dart       | `.dart`   |
+Kotlin     | `.kt`     |
