@@ -1,13 +1,15 @@
-# hello_world
+# Hello World
 
-- Python : `python monProgramme.py`
-- C : `gcc monProgramme.c` + `./a.out`
-- C++ : `g++ monProgramme.cpp` + `./a.out`
-- C# : `?`
-- JS : `node monProgramme.js`
-- Java : `java monProgramme.java`
-- Go : `go run monProgramme.go`
-- Rust : `rustc monProgramme.rs` + `./monProgramme`
-- Ruby : `?`
-- PHP : `php monProgramme.php`
-- Bash : `bash monProgramme.sh`
+Nom    | Extension | Compilation + Execution
+-------|-----------|--------------------------
+Python | `.py`     | `python monProgramme.py`
+C      | `.c`      | `gcc monProgramme.c` + `./a.out`
+C++    | `.cpp`    | `g++ monProgramme.cpp` + `./a.out`
+C#     | `.cs`     | `?`
+JS     | `.js`     | `node monProgramme.js`
+Java   | `.java`   | `java monProgramme.java`
+Go     | `.go`     | `go run monProgramme.go`
+Rust   | `.rs`     | `rustc monProgramme.rs` + `./monProgramme`
+Ruby   | `.rb`     | `?`
+PHP    | `.php`    | `php monProgramme.php`
+Bash   | `.sh`     | `bash monProgramme.sh`
