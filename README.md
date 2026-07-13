@@ -7,4 +7,4 @@
 - JS : `node {name}`
 - Java : `java {name}`
 - Go : `go run {name}`
-- Rust ; `rustc {name}` + `./{name}`
+- Rust : `rustc {name}` + `./{name}`
