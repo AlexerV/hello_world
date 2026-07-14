@@ -25,9 +25,9 @@ Dart       | `.dart`   | `dart compile exe monProgramme.dart -o monProgramme` + 
 
 ## A faire
 
-Nom        | Extension | Compilation + Execution
------------|-----------|------------------------
-R          | `.r`      |
+Nom        | Extension
+-----------|----------
+R          | `.r`
 
 ---
 
