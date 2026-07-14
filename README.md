@@ -20,6 +20,7 @@ Lua        | `.lua`    | `lua monProgramme.lua`
 TypeScript | `.ts`     | `node monProgramme.ts` 
 Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build monProgramme.cr` + `./monProgramme`
 Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgramme.jar` + `java -jar monProgramme.jar` **OU** `kotlinc monProgramme.kt -d .` + `kotlin MonProgrammeKt`
+Dart       | `.dart`   | `dart compile exe monProgramme.dart -o monProgramme` + `./monProgramme` **OU** `dart run monProgramme.dart` **OU** `dart monProgramme.dart`
 
 
 ## A faire
@@ -27,7 +28,6 @@ Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgram
 Nom        | Extension | Compilation + Execution
 -----------|-----------|------------------------
 R          | `.r`      |
-Dart       | `.dart`   |
 
 ---
 
@@ -59,3 +59,26 @@ Dart       | `.dart`   |
   kotlin MonProgrammeKt  # Exécuter
   ```
   > `MonProgrammeKt` correspond au nom du fichier `monProgramme.kt`.
+
+---
+
+- **Dart** :
+  - Exécuter directement :
+  ```bash
+  dart run monProgramme.dart
+  # ou
+  dart monProgramme.dart
+  ```
+  > Selon la version du SDK Dart installée, `dart run` est la commande recommandée
+
+  - Compiler en exécutable natif :
+  ```bash
+  dart compile exe monProgramme.dart -o monProgramme  # Compilation
+  ./monProgramme  # Exécution
+  ```
+
+  - Compiler en JavaScript :
+  ```bash
+  dart compile js monProgramme.dart -o monProgramme.js  # Compilation en JavaScript
+  node monProgramme.js  # Exécution
+  ```
