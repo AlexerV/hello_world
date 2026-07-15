@@ -4,9 +4,9 @@
 
 Nom        | Extension | Compilation + Execution
 -----------|-----------|------------------------
-Python     | `.py`     | `python monProgramme.py`
-C          | `.c`      | `gcc monProgramme.c` + `./a.out`
-C++        | `.cpp`    | `g++ monProgramme.cpp` + `./a.out`
+~~Python~~ | `.py`     | `python monProgramme.py`
+~~C~~      | `.c`      | `gcc monProgramme.c` + `./a.out`
+~~C++~~    | `.cpp`    | `g++ monProgramme.cpp` + `./a.out`
 C#         | `.cs`     | `dotnet new console -n TestCS` + `cd TestCS` + `dotnet run`
 JS         | `.js`     | `node monProgramme.js`
 Java       | `.java`   | `java monProgramme.java`
@@ -82,3 +82,61 @@ R          | `.r`
   dart compile js monProgramme.dart -o monProgramme.js  # Compilation en JavaScript
   node monProgramme.js  # Exécution
   ```
+
+---
+
+<details>
+<summary>Python</summary>
+
+Extension : `.py`  
+Exécution :
+```bash
+python monProgramme.py
+```
+
+</details>
+
+<details>
+<summary>C</summary>
+
+Extension : `.c`  
+Compilation :
+```bash
+gcc monProgramme.c
+```
+Exécution :
+```bash
+./a.out
+```
+
+</details>
+
+<details>
+<summary>C++</summary>
+
+Extension : `.cpp`  
+Compilation :
+```bash
+g++ monProgramme.cpp
+```
+Exécution :
+```bash
+./a.out
+```
+
+</details>
+
+<details>
+<summary>Template</summary>
+
+Extension : ``  
+Compilation :
+```bash
+
+```
+Exécution :
+```bash
+
+```
+
+</details>
