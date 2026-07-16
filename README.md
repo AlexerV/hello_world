@@ -7,13 +7,13 @@ Nom        | Extension | Compilation + Execution
 ~~Python~~ | `.py`     | `python monProgramme.py`
 ~~C~~      | `.c`      | `gcc monProgramme.c` + `./a.out`
 ~~C++~~    | `.cpp`    | `g++ monProgramme.cpp` + `./a.out`
-C#         | `.cs`     | `dotnet new console -n TestCS` + `cd TestCS` + `dotnet run`
-JS         | `.js`     | `node monProgramme.js`
-Java       | `.java`   | `java monProgramme.java`
-Go         | `.go`     | `go run monProgramme.go`
-Rust       | `.rs`     | `rustc monProgramme.rs` + `./monProgramme`
-Ruby       | `.rb`     | `ruby monProgramme.rb`
-PHP        | `.php`    | `php monProgramme.php`
+~~C#~~     | `.cs`     | `dotnet new console -n TestCS` + `cd TestCS` + `dotnet run`
+~~JS~~     | `.js`     | `node monProgramme.js`
+~~Java~~   | `.java`   | `java monProgramme.java`
+~~Go~~     | `.go`     | `go run monProgramme.go`
+~~Rust~~   | `.rs`     | `rustc monProgramme.rs` + `./monProgramme`
+~~Ruby~~   | `.rb`     | `ruby monProgramme.rb`
+~~PHP~~    | `.php`    | `php monProgramme.php`
 Bash       | `.sh`     | `bash monProgramme.sh`
 Perl       | `.pl`     | `perl monProgramme.pl`
 Lua        | `.lua`    | `lua monProgramme.lua`
@@ -122,6 +122,92 @@ g++ monProgramme.cpp
 Exécution :
 ```bash
 ./a.out
+```
+
+</details>
+
+<details>
+<summary>C#</summary>
+
+Extension : `.cs`  
+Compilation :
+```bash
+dotnet new console -n TestCS
+cd TestCS
+```
+Exécution :
+```bash
+dotnet run
+```
+
+</details>
+
+<details>
+<summary>JavaScript</summary>
+
+Extension : `.js`  
+Exécution :
+```bash
+node monProgramme.js
+```
+
+</details>
+
+<details>
+<summary>Java</summary>
+
+Extension : `.java`  
+Exécution :
+```bash
+java monProgramme.java
+```
+
+</details>
+
+<details>
+<summary>Go</summary>
+
+Extension : `.go`  
+Exécution :
+```bash
+go run monProgramme.go
+```
+
+</details>
+
+<details>
+<summary>Rust</summary>
+
+Extension : `.rs`  
+Compilation :
+```bash
+rustc monProgramme.rs
+```
+Exécution :
+```bash
+./monProgramme
+```
+
+</details>
+
+<details>
+<summary>Ruby</summary>
+
+Extension : `.rb`  
+Exécution :
+```bash
+ruby monProgramme.rb
+```
+
+</details>
+
+<details>
+<summary>PHP</summary>
+
+Extension : `.php`  
+Exécution :
+```bash
+php monProgramme.php
 ```
 
 </details>
