@@ -1,5 +1,6 @@
 <h1 align="center">Hello World</h1>
 
+<!--
 ## Fait
 
 Nom        | Extension | Compilation + Execution
@@ -14,9 +15,9 @@ Nom        | Extension | Compilation + Execution
 ~~Rust~~   | `.rs`     | `rustc monProgramme.rs` + `./monProgramme`
 ~~Ruby~~   | `.rb`     | `ruby monProgramme.rb`
 ~~PHP~~    | `.php`    | `php monProgramme.php`
-Bash       | `.sh`     | `bash monProgramme.sh`
-Perl       | `.pl`     | `perl monProgramme.pl`
-Lua        | `.lua`    | `lua monProgramme.lua`
+~~Bash~~   | `.sh`     | `bash monProgramme.sh`
+~~Perl~~   | `.pl`     | `perl monProgramme.pl`
+~~Lua~~    | `.lua`    | `lua monProgramme.lua`
 TypeScript | `.ts`     | `node monProgramme.ts` 
 Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build monProgramme.cr` + `./monProgramme`
 Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgramme.jar` + `java -jar monProgramme.jar` **OU** `kotlinc monProgramme.kt -d .` + `kotlin MonProgrammeKt`
@@ -82,6 +83,8 @@ R          | `.r`
   dart compile js monProgramme.dart -o monProgramme.js  # Compilation en JavaScript
   node monProgramme.js  # Exécution
   ```
+
+-->
 
 ---
 
@@ -211,6 +214,124 @@ php monProgramme.php
 ```
 
 </details>
+
+<details>
+<summary>Bash</summary>
+
+Extension : `.sh`  
+Exécution :
+```bash
+bash monProgramme.sh
+```
+
+</details>
+
+<details>
+<summary>Perl</summary>
+
+Extension : `.pl`  
+Exécution :
+```bash
+perl monProgramme.pl
+```
+
+</details>
+
+<details>
+<summary>Lua</summary>
+
+Extension : `.lua`  
+Exécution :
+```bash
+lua monProgramme.lua
+```
+
+</details>
+
+<details>
+<summary>TypeScript</summary>
+
+Extension : `.ts`  
+Exécution :
+```bash
+node monProgramme.ts
+```
+
+</details>
+
+<details>
+<summary>Crystal</summary>
+
+Extension : `.cr`  
+Compilation :
+```bash
+crystal build monProgramme.cr
+```
+Exécution :
+```bash
+./monProgramme
+```
+**OU**  
+Exécution sans compilation :
+```bash
+crystal run monProgramme.cr
+```
+> Ici Crystal compile automatiquement puis lance le programme.
+
+</details>
+
+
+<details>
+<summary>Kotlin</summary>
+
+Extension : `.kt`  
+Compilation :
+```bash
+kotlinc monProgramme.kt -include-runtime -d monProgramme.jar  # (L'option `-include-runtime` inclut la bibliothèque standard Kotlin dans le JAR.)
+```
+Exécution :
+```bash
+java -jar monProgramme.jar  # Exécution avec Java
+```
+
+Exécution sans créer de JAR :
+```bash
+kotlinc monProgramme.kt -d .  # Compilation
+kotlin MonProgrammeKt  # Exécution
+```
+> `MonProgrammeKt` correspond au nom du fichier `monProgramme.kt`.
+
+</details>
+
+
+<details>
+<summary>Dart</summary>
+
+Extension : `.dart`  
+Compilation :
+```bash
+dart compile exe monProgramme.dart -o monProgramme
+```
+Exécution :
+```bash
+./monProgramme
+```
+Exécution sans compilation :
+```bash
+dart run monProgramme.dart
+# ou
+dart monProgramme.dart
+```
+> Selon la version du SDK Dart installée, `dart run` est la commande recommandée.
+
+Compiler en JavaScript
+```bash
+dart compile js monProgramme.dart -o monProgramme.js  # Compilation en JavaScript
+node monProgramme.js  # Exécution
+```
+
+</details>
+
 
 <details>
 <summary>Template</summary>
