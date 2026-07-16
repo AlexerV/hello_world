@@ -23,13 +23,6 @@ Crystal    | `.cr`     | `crystal run monProgramme.cr` **OU** `crystal build mon
 Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgramme.jar` + `java -jar monProgramme.jar` **OU** `kotlinc monProgramme.kt -d .` + `kotlin MonProgrammeKt`
 Dart       | `.dart`   | `dart compile exe monProgramme.dart -o monProgramme` + `./monProgramme` **OU** `dart run monProgramme.dart` **OU** `dart monProgramme.dart`
 
-
-## A faire
-
-Nom        | Extension
------------|----------
-R          | `.r`
-
 ---
 
 - **Crystal** :
