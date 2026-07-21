@@ -34,8 +34,8 @@
 <details>
 <summary>Python</summary>
 
-Extension : `.py`  
-Exécution :
+- Extension : `.py`  
+- Exécution :
 ```bash
 python monProgramme.py
 ```
@@ -45,12 +45,12 @@ python monProgramme.py
 <details>
 <summary>C</summary>
 
-Extension : `.c`  
-Compilation :
+- Extension : `.c`  
+- Compilation :
 ```bash
 gcc monProgramme.c
 ```
-Exécution :
+- Exécution :
 ```bash
 ./a.out
 ```
@@ -60,12 +60,12 @@ Exécution :
 <details>
 <summary>C++</summary>
 
-Extension : `.cpp`  
-Compilation :
+- Extension : `.cpp`  
+- Compilation :
 ```bash
 g++ monProgramme.cpp
 ```
-Exécution :
+- Exécution :
 ```bash
 ./a.out
 ```
@@ -75,13 +75,13 @@ Exécution :
 <details>
 <summary>C#</summary>
 
-Extension : `.cs`  
-Compilation :
+- Extension : `.cs`  
+- Compilation :
 ```bash
 dotnet new console -n TestCS
 cd TestCS
 ```
-Exécution :
+- Exécution :
 ```bash
 dotnet run
 ```
@@ -91,8 +91,8 @@ dotnet run
 <details>
 <summary>JavaScript</summary>
 
-Extension : `.js`  
-Exécution :
+- Extension : `.js`  
+- Exécution :
 ```bash
 node monProgramme.js
 ```
@@ -102,8 +102,8 @@ node monProgramme.js
 <details>
 <summary>Java</summary>
 
-Extension : `.java`  
-Exécution :
+- Extension : `.java`  
+- Exécution :
 ```bash
 java monProgramme.java
 ```
@@ -113,8 +113,8 @@ java monProgramme.java
 <details>
 <summary>Go</summary>
 
-Extension : `.go`  
-Exécution :
+- Extension : `.go`  
+- Exécution :
 ```bash
 go run monProgramme.go
 ```
@@ -124,12 +124,12 @@ go run monProgramme.go
 <details>
 <summary>Rust</summary>
 
-Extension : `.rs`  
-Compilation :
+- Extension : `.rs`  
+- Compilation :
 ```bash
 rustc monProgramme.rs
 ```
-Exécution :
+- Exécution :
 ```bash
 ./monProgramme
 ```
@@ -139,8 +139,8 @@ Exécution :
 <details>
 <summary>Ruby</summary>
 
-Extension : `.rb`  
-Exécution :
+- Extension : `.rb`  
+- Exécution :
 ```bash
 ruby monProgramme.rb
 ```
@@ -150,8 +150,8 @@ ruby monProgramme.rb
 <details>
 <summary>PHP</summary>
 
-Extension : `.php`  
-Exécution :
+- Extension : `.php`  
+- Exécution :
 ```bash
 php monProgramme.php
 ```
@@ -161,8 +161,8 @@ php monProgramme.php
 <details>
 <summary>Bash</summary>
 
-Extension : `.sh`  
-Exécution :
+- Extension : `.sh`  
+- Exécution :
 ```bash
 bash monProgramme.sh
 ```
@@ -172,8 +172,8 @@ bash monProgramme.sh
 <details>
 <summary>Perl</summary>
 
-Extension : `.pl`  
-Exécution :
+- Extension : `.pl`  
+- Exécution :
 ```bash
 perl monProgramme.pl
 ```
@@ -183,8 +183,8 @@ perl monProgramme.pl
 <details>
 <summary>Lua</summary>
 
-Extension : `.lua`  
-Exécution :
+- Extension : `.lua`  
+- Exécution :
 ```bash
 lua monProgramme.lua
 ```
@@ -194,8 +194,8 @@ lua monProgramme.lua
 <details>
 <summary>TypeScript</summary>
 
-Extension : `.ts`  
-Exécution :
+- Extension : `.ts`  
+- Exécution :
 ```bash
 node monProgramme.ts
 ```
@@ -205,17 +205,17 @@ node monProgramme.ts
 <details>
 <summary>Crystal</summary>
 
-Extension : `.cr`  
-Compilation :
+- Extension : `.cr`  
+- Compilation :
 ```bash
 crystal build monProgramme.cr
 ```
-Exécution :
+- Exécution :
 ```bash
 ./monProgramme
 ```
 **OU**  
-Exécution sans compilation :
+- Exécution sans compilation :
 ```bash
 crystal run monProgramme.cr
 ```
@@ -227,17 +227,17 @@ crystal run monProgramme.cr
 <details>
 <summary>Kotlin</summary>
 
-Extension : `.kt`  
-Compilation :
+- Extension : `.kt`  
+- Compilation :
 ```bash
 kotlinc monProgramme.kt -include-runtime -d monProgramme.jar  # (L'option `-include-runtime` inclut la bibliothèque standard Kotlin dans le JAR.)
 ```
-Exécution :
+- Exécution :
 ```bash
 java -jar monProgramme.jar  # Exécution avec Java
 ```
 
-Exécution sans créer de JAR :
+- Exécution sans créer de JAR :
 ```bash
 kotlinc monProgramme.kt -d .  # Compilation
 kotlin MonProgrammeKt  # Exécution
@@ -250,16 +250,16 @@ kotlin MonProgrammeKt  # Exécution
 <details>
 <summary>Dart</summary>
 
-Extension : `.dart`  
-Compilation :
+- Extension : `.dart`  
+- Compilation :
 ```bash
 dart compile exe monProgramme.dart -o monProgramme
 ```
-Exécution :
+- Exécution :
 ```bash
 ./monProgramme
 ```
-Exécution sans compilation :
+- Exécution sans compilation :
 ```bash
 dart run monProgramme.dart
 # ou
@@ -267,7 +267,7 @@ dart monProgramme.dart
 ```
 > Selon la version du SDK Dart installée, `dart run` est la commande recommandée.
 
-Compiler en JavaScript
+- Compiler en JavaScript
 ```bash
 dart compile js monProgramme.dart -o monProgramme.js  # Compilation en JavaScript
 node monProgramme.js  # Exécution
@@ -279,12 +279,12 @@ node monProgramme.js  # Exécution
 <details>
 <summary>Template</summary>
 
-Extension : ``  
-Compilation :
+- Extension : ``  
+- Compilation :
 ```bash
 
 ```
-Exécution :
+- Exécution :
 ```bash
 
 ```
