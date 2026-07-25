@@ -21,6 +21,7 @@
 - [x] Crystal
 - [x] Dart
 - [x] Kotlin
+- [x] Zig
 
 
 
@@ -275,6 +276,24 @@ node monProgramme.js  # Exécution
 
 </details>
 
+
+<details>
+<summary>Zig</summary>
+
+- Extension : `.zig`  
+- Compilation :
+```bash
+mkdir monProjet/
+cd monProjet/
+vim monProgramme.zig  # création du fichier monProgramme.zig avec VIM
+zig init
+```
+- Exécution :
+```bash
+zig run monProgramme.zig
+```
+
+</details>
 
 <details>
 <summary>Template</summary>
