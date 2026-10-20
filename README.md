@@ -1,5 +1,39 @@
 <h1 align="center">Hello World</h1>
 
+<!--
+<details>
+  
+<summary>Tableau</summary>
+
+| Statut | Langage    | Extension | Compilation | Exécution         | Note |
+| ------ | ---------- | --------- | ----------- | ----------------- | ---- |
+| [x]    | Python     | `.py`     | -           | `python3 monProgramme.py` | -    |
+| [x]    | JavaScript | `.js`     | -           | `node monProgramme.js`    | -    |
+| [x]    | Java       | `.java`   | -           | `java monProgramme.java`  | -    |
+| [x]    | C          | `.c`      | `gcc monProgramme.c` | `./a.out` | - |
+| [x]    | C++        | `.cpp`    | `g++ monProgramme.cpp` | `./a.out` | - |
+| [x]    | C#         | `.cs`     | `dotnet new console -n TestCS` -> `cd TestCS` | `dotnet run` | - |
+| [x]    | Go         | `.go`     | - | `go run monProgramme.go` | - |
+| [x]    | Rust       | `.rs`     | `rustc monProgramme.rs` | `./monProgramme` | - |
+| [x]    | Ruby       | `.rb`     | - | `ruby monProgramme.rb` | - |
+| [x]    | PHP        | `.php`    | - | `php monProgramme.php` | - |
+| [x]    | Bash       | `.sh`     | - | `bash monProgramme.sh` | - |
+| [x]    | Perl       | `.pl`     | - | `perl monProgramme.pl` | - |
+| [x]    | Lua        | `.lua`    | - | `lua monProgramme.lua` | - |
+| [x]    | TypeScript | `.ts`     | - | `node monProgramme.ts` | - |
+| [x]    | Crystal    | `.cr`     | `crystal build monProgramme.cr` | `./monProgramme` | - |
+| [x]    | Crystal    | `.cr`     | - | `crystal run monProgramme.cr` | Ici Crystal compile automatiquement puis lance le programme |
+| [x]    | Dart       | `.dart`   | `dart compile exe monProgramme.dart -o monProgramme` | ./monProgramme | - |
+| [x]    | Dart       | `.dart`   | - | `dart run monProgramme.dart` ou `dart monProgramme.dart` | Exécution sans compilation. Selon la version du SDK Dart installée, `dart run` est la commande recommandée. |
+| [x]    | Dart       | `.dart`   | `dart compile js monProgramme.dart -o monProgramme.js` | `node monProgramme.js` | Compilation et exécution en JavaScript |
+| [x]    | Kotlin     | `.kt`     | `kotlinc monProgramme.kt -include-runtime -d monProgramme.jar` | `java -jar monProgramme.jar` | L'option `-include-runtime` inclut la bibliothèque standard Kotlin dans le JAR, puis on l'exécution avec Java. |
+| [x]    | Kotlin     | `.kt`     | `kotlinc monProgramme.kt -d .` | `kotlin MonProgrammeKt` | `MonProgrammeKt` correspond au nom du fichier `monProgramme.kt` |
+| [x]    | Zig        | `.zig`    | `mkdir monProjet/` -> `cd monProjet` -> `vim monProgramme.zig` -> `zig init` | `zig run monProgramme.zig` | - |
+  
+</details>
+-->
+---
+
 <details>
 
 <summary>Fait</summary>
